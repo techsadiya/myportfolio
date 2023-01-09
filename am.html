@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>navbar</title>
+    <style type="text/css" media="all">
+    *{
+      padding:0;
+      margin: 0;
+    }
+    .main{
+      background-color: grey;
+    }
+    ul li a{
+      text-decoration: none;
+      color: white;
+    }
+    ul{
+      margin-left: 200px;
+      padding:28px;
+    }
+    ul li{
+      display:inline;
+      margin: 5px;
+      font-weight: lighter;
+    }
+    .navbar-logo{
+      padding: 20px;
+      font-size: 25px;
+      color: white;
+      font-weight: lighter;
+    }
+    .btn{
+      padding:28px;
+      margin-left: 105px;
+    }
+    .btn a{
+      text-decoration: none;
+    }
+    .login:hover{
+      border:1px solid red;
+      padding : 5px;
+      border-radius: 3px;
+      background-color: red;
+      color: white;
+    }
+    .signup{
+      border:1px solid blue;
+      padding :5px;
+      border-radius: 3px;
+      background-color: blue;
+      color: white;
+    }
+    .login{
+      background-color: grey;
+      color: red;
+      border: 1px solid red;
+      padding: 5px;
+      border-radius: 3px;
+    }
+    .signup:hover{
+      background-color: grey;
+      color: blue;
+      border: 1px solid blue;
+      padding:5px;
+      border-radius: 3px;
+      margin-left: 3px;
+    }
+    </style>
+</head>
+<body>
+  <div style="display:flex" class="main">
+    <div class="navbar-logo">NAVBAR</div>
+    <div class="list-items">
+      <ul type="none">
+        <li><a href="#">home</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">achievement</a></li>
+        <li><a href="#">about us</a></li>
+      </ul>
+    </div>
+    <div class="btn">
+      <a href="Login.html" class="login">Log-in</a>
+      <a href="Signup.html" class="signup">Sign-up</a>
+    </div>
+  </div>
+</body>
+</html>
